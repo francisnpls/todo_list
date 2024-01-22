@@ -5,8 +5,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        light: "url('./public/light.jpg')",
-        dark: "url('./public/dark.jpg')",
+        light: "url('./src/assets/light.jpg')",
+        dark: "url('./src/assets/dark.jpg')",
       },
       fontFamily: {
         comic: ["Comic Neue", "cursive"],
