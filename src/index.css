@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.icon {
+  font-size: 30px;
+  color: white;
+}
+
+.activeBtn {
+  color: #4068f9;
+}
+
+.gradient-blue {
+  background: #004cbd;
+  background: -webkit-linear-gradient(44deg, #004cbd 0%, #47ff7a 100%);
+  background: linear-gradient(44deg, #004cbd 0%, #47ff7a 100%);
+}
